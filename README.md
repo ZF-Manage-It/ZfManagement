@@ -7,3 +7,7 @@ ZfManagement
   - Dashboard is capable of loading other modules following a predefined interface
   - Only performs CRUD actions for Management Users out of the box
   - Contains a php setup script for creating the database schema
+
+Objective
+=========
+To provide a simple administrative dashboard capable of rendering backend modules used for managing your application. 
