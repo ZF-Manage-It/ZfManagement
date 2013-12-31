@@ -1,0 +1,28 @@
+{
+    "name": "zf-manage-it/zf-management",
+    "description": "A ZF management framework.",
+    "type": "library",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "https://github.com/zf-manage-it/zf-management",
+    "authors": [
+        {
+            "name": "ZF Manage It",
+            "email": "zfmanageit@gmail.com",
+            "homepage": "http://www.zf-manage-it.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ZfManagement": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
